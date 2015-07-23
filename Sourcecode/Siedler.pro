@@ -13,8 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    Model/myort.cpp \
+    View/mykaufdialog.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    Model/myort.h \
+    View/mykaufdialog.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    View/mybonusevent.ui

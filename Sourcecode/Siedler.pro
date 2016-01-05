@@ -16,23 +16,25 @@ CONFIG += c++11
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    Model/myort.cpp \
-    View/mykaufdialog.cpp \
     Model/treeelement.cpp \
     Model/boni.cpp \
     Model/building.cpp \
     Model/subtree.cpp \
+<<<<<<< HEAD
     Model/team.cpp \
     Model/xmlparser.cpp
+=======
+    View/buildingwidget.cpp \
+    Model/diceboni.cpp
+>>>>>>> 394c5e56f57ef7f768f38c60226e37d44642ad58
 
 HEADERS  += mainwindow.h \
-    Model/myort.h \
-    View/mykaufdialog.h \
     Model/treeelement.h \
     Model/boni.h \
     Model/ShowPlaceEnum.h \
     Model/building.h \
     Model/subtree.h \
+<<<<<<< HEAD
     Model/team.h \
     Model/ResourceEnum.h \
     Model/xmlparser.h
@@ -42,3 +44,9 @@ FORMS    += mainwindow.ui \
 
 OTHER_FILES += \
     Tree.xml
+=======
+    View/buildingwidget.h \
+    Model/diceboni.h
+
+FORMS    += mainwindow.ui
+>>>>>>> 394c5e56f57ef7f768f38c60226e37d44642ad58

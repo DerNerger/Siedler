@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QPushButton>
 
+#include "View/buildingwidget.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -18,6 +20,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void initStylesheet();
 };
 
 #endif // MAINWINDOW_H

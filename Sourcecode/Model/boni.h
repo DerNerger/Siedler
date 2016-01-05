@@ -12,7 +12,7 @@ public:
     int getPoints();
     QMap<int,int> getDices();
     QString getTextFor(enum ShowPlaceEnum place);
-    QString getBoniAsText() = delete;
+    QString getBoniAsText();
 };
 
 #endif // BONI_H

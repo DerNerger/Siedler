@@ -10,9 +10,9 @@ class Boni
 public:
     Boni();
     int getPoints();
-    QMap<int,int> getDices();
+    virtual QMap<int,int> getDices();
     QString getTextFor(enum ShowPlaceEnum place);
-    QString getBoniAsText() = delete;
+    virtual QString getBoniAsText() = 0;
 };
 
 #endif // BONI_H

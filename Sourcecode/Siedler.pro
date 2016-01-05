@@ -15,21 +15,20 @@ CONFIG += c++11
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    Model/myort.cpp \
-    View/mykaufdialog.cpp \
     Model/treeelement.cpp \
     Model/boni.cpp \
     Model/building.cpp \
-    Model/subtree.cpp
+    Model/subtree.cpp \
+    View/buildingwidget.cpp \
+    Model/diceboni.cpp
 
 HEADERS  += mainwindow.h \
-    Model/myort.h \
-    View/mykaufdialog.h \
     Model/treeelement.h \
     Model/boni.h \
     Model/ShowPlaceEnum.h \
     Model/building.h \
-    Model/subtree.h
+    Model/subtree.h \
+    View/buildingwidget.h \
+    Model/diceboni.h
 
-FORMS    += mainwindow.ui \
-    View/mybonusevent.ui
+FORMS    += mainwindow.ui

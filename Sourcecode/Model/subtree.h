@@ -12,7 +12,9 @@ private:
     QList<Building*> buildings;
 public:
     SubTree(QString name);
-    void AddChildBuilding(Building * building);
+    ~SubTree();
+    void addChildBuilding(Building * building);
+    virtual QList<TreeElement*> getChildren();
 };
 
 #endif // SUBTREE_H

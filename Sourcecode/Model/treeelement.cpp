@@ -7,9 +7,9 @@ TreeElement::TreeElement(QString name) : name(name), childrens()
 QMap<int, int> TreeElement::getDices()
 {
     QMap<int, int> sum;
-    foreach(TreeElement* hans , getChildren())
+    foreach(TreeElement* elem, getChildren())
     {
-        QMap<int, int> childDices = hans->getDices();
+        QMap<int, int> childDices = elem->getDices();
         QMapIterator<int, int> iterator(childDices);
         while (iterator.hasNext())
         {

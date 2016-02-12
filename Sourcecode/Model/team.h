@@ -15,7 +15,8 @@ private:
     enum ResourceEnum resource;
     QList<SubTree> subTrees;
 public:
-    Team(QString name, enum ResourceEnum resource);
+    Team(QString name, ResourceEnum resource) : TreeElement(name), resource(resource){}
+    virtual QList<TreeElement*> getChildren();
 };
 
 #endif // TEAM_H

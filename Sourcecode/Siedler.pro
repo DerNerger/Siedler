@@ -20,13 +20,12 @@ SOURCES += main.cpp\
     Model/boni.cpp \
     Model/building.cpp \
     Model/subtree.cpp \
-<<<<<<< HEAD
+    Model/diceboni.cpp \
     Model/team.cpp \
-    Model/xmlparser.cpp
-=======
+    Model/xmlparser.cpp \
     View/buildingwidget.cpp \
-    Model/diceboni.cpp
->>>>>>> 394c5e56f57ef7f768f38c60226e37d44642ad58
+    View/mykaufdialog.cpp
+
 
 HEADERS  += mainwindow.h \
     Model/treeelement.h \
@@ -34,19 +33,17 @@ HEADERS  += mainwindow.h \
     Model/ShowPlaceEnum.h \
     Model/building.h \
     Model/subtree.h \
-<<<<<<< HEAD
-    Model/team.h \
+    Model/diceboni.h \
+    Model/myort.h \
     Model/ResourceEnum.h \
-    Model/xmlparser.h
+    Model/team.h \
+    Model/xmlparser.h \
+    View/buildingwidget.h
 
 FORMS    += mainwindow.ui \
     View/mybonusevent.ui
 
 OTHER_FILES += \
     Tree.xml
-=======
-    View/buildingwidget.h \
-    Model/diceboni.h
 
 FORMS    += mainwindow.ui
->>>>>>> 394c5e56f57ef7f768f38c60226e37d44642ad58

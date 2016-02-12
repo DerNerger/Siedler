@@ -30,7 +30,7 @@ SubTree* XMLParser::parseSubTree(QDomNode node){
     QDomNode child = elem.firstChild();
     if(!child.isNull()){
         Building* building = parseBuilding(child);
-        tree->AddChildBuilding(building);
+        tree->addChildBuilding(building);
         child = child.nextSibling();
     }
 }

@@ -6,6 +6,12 @@ SubTree::SubTree(QString name) : TreeElement(name)
 {
 }
 
-void SubTree::AddChildBuilding(Building *building){
+void SubTree::addChildBuilding(Building *building){
     buildings.append(building);
 }
+
+QList<TreeElement *> SubTree::getChildren()
+{
+
+}
+

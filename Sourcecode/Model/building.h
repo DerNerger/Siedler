@@ -3,6 +3,7 @@
 
 #include <QList>
 #include <QString>
+#include <QStringList>
 
 #include "treeelement.h"
 #include "Model/boni.h"

@@ -23,8 +23,7 @@ SOURCES += main.cpp\
     Model/diceboni.cpp \
     Model/team.cpp \
     Model/xmlparser.cpp \
-    View/buildingwidget.cpp \
-    View/mykaufdialog.cpp
+    View/buildingwidget.cpp
 
 
 HEADERS  += mainwindow.h \

@@ -1,7 +1,7 @@
 <Siedler>
     <SubTree Name="Wirtschaft">
-        <Building Name="Markt", costs="3,5,1,2,5", dice="1W6,2W4", text="NewYear:Du darfst diese Runde einen Wurf wiederholen.,Uebersicht:und noch was anderes", points="7">
-            <Building Name="Fabrik", costs="3,5,1,2,5">
+        <Building Name="Markt" costs="3,5,1,2,5" dice="1W6,2W4" text="NewYear:Du darfst diese Runde einen Wurf wiederholen.,Uebersicht:und noch was anderes" points="7">
+            <Building Name="Fabrik" costs="3,5,1,2,5">
             </Building>
         </Building>
     </SubTree>

@@ -2,16 +2,16 @@
 
 
 
-SubTree::SubTree(QString name) : TreeElement(name)
+SubTree::SubTree(QString name, QList<Building*> *buildings) : TreeElement(name), buildings(buildings)
 {
-}
-
-void SubTree::addChildBuilding(Building *building){
-    buildings.append(building);
 }
 
 QList<TreeElement *> SubTree::getChildren()
 {
-
+    QList<TreeElement *> list;
+    foreach (Building* b, *buildings) {
+        list += b;
+    }
+    return list;
 }
 

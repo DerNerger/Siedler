@@ -10,7 +10,11 @@
 #include <QDomDocument>
 #include <iostream>
 #include "subtree.h"
+#include "team.h"
 #include "building.h"
+#include "diceboni.h"
+#include "textboni.h"
+#include "pointboni.h"
 
 class XMLParser
 {
@@ -18,9 +22,9 @@ private:
     QString path;
 public:
     XMLParser(QString path);
-    void parseTree();
+    Team* parseTeam(QString name, ResourceEnum res);
     SubTree* parseSubTree(QDomNode node);
-    Building* parseBuilding(QDomNode node);
+    Building* parseBuilding(QDomNode node, Building *fater);
 };
 
 #endif // XMLPARSER_H

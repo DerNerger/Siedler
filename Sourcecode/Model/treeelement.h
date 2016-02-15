@@ -11,7 +11,6 @@ class TreeElement
 {
 protected:
     QString name;
-    QList<Building*> childrens;
 public:
     TreeElement(QString name);
 

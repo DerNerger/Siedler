@@ -9,9 +9,9 @@ class Boni
 {
 public:
     Boni();
-    int getPoints();
+    virtual int getPoints();
     virtual QMap<int,int> getDices();
-    QString getTextFor(enum ShowPlaceEnum place);
+    virtual QString getTextFor(enum ShowPlaceEnum place);
     virtual QString getBoniAsText() = 0;
 };
 

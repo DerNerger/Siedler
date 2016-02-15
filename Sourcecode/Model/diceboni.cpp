@@ -1,17 +1,13 @@
 #include "diceboni.h"
 
-DiceBoni::DiceBoni(QMap<int, int> Dices): dices(Dices)
-{
-
+QString DiceBoni::getBoniAsText(){
+    QString str = "";
+    QMap<int, int>::iterator i;
+    for (i = dices.begin(); i != dices.end(); ++i){
+        str+=i.value();
+        str+="W";
+        str+=i.key();
+        str+=" ";
+    }
+    return str;
 }
-
-QMap<int, int> DiceBoni::getDices()
-{
-    return dices;
-}
-
-QString DiceBoni::getBoniAsText()
-{
-    return QString();
-}
-

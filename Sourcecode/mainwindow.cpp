@@ -5,11 +5,10 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
-    initStylesheet();
     ui->setupUi(this);
-
-    Building *hansDieter = new Building(NULL,{1,2,3,4,5},"HansDieter");
-    BuildingWidget* widget = new BuildingWidget(hansDieter,this->centralWidget());
+    initStylesheet();
+    Building *hansDieter = new Building(NULL,{1,2,2,2,3},"Schule");
+    BuildingWidget* widget = new BuildingWidget(hansDieter,ResourceEnum::WOOD,this->centralWidget());
     widget->show();
 }
 
@@ -20,9 +19,19 @@ MainWindow::~MainWindow()
 
 void MainWindow::initStylesheet()
 {
-    QString styleSheet;
-    //styleSheet += "background-color: #F2E496;";
-    styleSheet += "font-family: Georgia;";
-    styleSheet += "font: 16 px;";
-    this->setStyleSheet(styleSheet);
+    Data* data = Data::getInstance();
+    if(data->exists("Stylesheet.css"))
+    {
+        QFile* styleFile = data->getFile("Stylesheet.css");
+        if(styleFile->open(QIODevice::ReadOnly))
+        {
+            QString style = styleFile->readAll();
+            this->centralWidget()->setStyleSheet(style);
+            styleFile->close();
+            delete styleFile;
+        }
+
+    }
+    else
+        qDebug() << "Konnte Stylesheet nicht finden";
 }

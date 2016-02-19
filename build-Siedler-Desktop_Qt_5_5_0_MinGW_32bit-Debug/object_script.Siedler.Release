@@ -1,0 +1,15 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\treeelement.o
+./release\boni.o
+./release\building.o
+./release\subtree.o
+./release\diceboni.o
+./release\team.o
+./release\xmlparser.o
+./release\data.o
+./release\buildingwidget.o
+./release\moc_mainwindow.o
+./release\moc_buildingwidget.o
+);

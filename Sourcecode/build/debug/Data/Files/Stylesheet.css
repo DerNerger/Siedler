@@ -1,0 +1,7 @@
+font-family: Georgia;
+font: 30 px;
+QGroupBox
+{
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #F2E496, stop: 1 #FFFFFF);
+    border: 2px solid gray;border-radius: 5px; margin-top: 1ex;
+};

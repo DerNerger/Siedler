@@ -17,6 +17,7 @@ private:
 public:
     Team(QString name, ResourceEnum resource) : TreeElement(name), resource(resource){}
     virtual QList<TreeElement*> getChildren();
+    bool isBought(){return true;}
 };
 
 #endif // TEAM_H

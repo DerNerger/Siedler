@@ -15,6 +15,7 @@ public:
     ~SubTree();
     void addChildBuilding(Building * building);
     virtual QList<TreeElement*> getChildren();
+    bool isBought(){return true;}
 };
 
 #endif // SUBTREE_H

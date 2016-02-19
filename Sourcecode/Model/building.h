@@ -22,6 +22,11 @@ public:
     QMap<int, int> getDices();
     QList<TreeElement*> getChildren();
     QStringList getBoniAsText();
+    QList<int> getCosts(){return costs;}
+    bool isBought(){return bought;}
+    void setBought(bool Bought){bought = Bought;}
+    bool isBuyable(){return parent->isBought();}
+
 };
 
 #endif // BUILDING_H

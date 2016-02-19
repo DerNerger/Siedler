@@ -1,0 +1,19 @@
+* 
+{
+	font-family: Georgia ;
+ 	font: normal 24px ;
+}
+BuildingWidget 
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #F2E496, stop: 1 #FFFFFF);
+	border: 3px solid gray;
+	border-radius: 5px;
+	padding:  0px 0px 0px 0px;
+	margin: 0px;
+}
+QLabel#title
+{
+	font-family: Georgia ;
+ 	font: normal 30px ;
+	text-decoration: underline;
+}

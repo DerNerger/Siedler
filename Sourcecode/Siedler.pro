@@ -23,8 +23,8 @@ SOURCES += main.cpp\
     Model/diceboni.cpp \
     Model/team.cpp \
     Model/xmlparser.cpp \
+    Model/data.cpp \
     View/buildingwidget.cpp
-
 
 HEADERS  += mainwindow.h \
     Model/treeelement.h \
@@ -37,6 +37,7 @@ HEADERS  += mainwindow.h \
     Model/ResourceEnum.h \
     Model/team.h \
     Model/xmlparser.h \
+    Model/data.h \
     View/buildingwidget.h
 
 FORMS    += mainwindow.ui \

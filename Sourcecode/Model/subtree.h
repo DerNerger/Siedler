@@ -9,11 +9,10 @@
 class SubTree : public TreeElement
 {
 private:
-    QList<Building*> buildings;
+    QList<Building*> *buildings;
 public:
-    SubTree(QString name);
+    SubTree(QString name, QList<Building*> *buildings);
     ~SubTree();
-    void addChildBuilding(Building * building);
     virtual QList<TreeElement*> getChildren();
     bool isBought(){return true;}
 };

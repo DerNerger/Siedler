@@ -1,7 +1,38 @@
 <Siedler>
+	<SubTree Name="Bildung">
+		<Building Name="Schule" costs="" dice="" text="" points="">
+			<Building Name="Gymnasium" costs="" dice="" text="" points="">
+				<Building Name="Universität" costs="" dice="" text="" points="">
+					<Building Name="Bibliothek" costs="" dice="" text="" points="">
+					</Building>
+				</Building>	
+			</Building>
+		</Building>
+	</SubTree>
+	<SubTree Name="Glaube">
+		<Building Name="Kapelle" costs="" dice="" text="" points="">
+			<Building Name="Kirche" costs="" dice="" text="" points="">
+				<Building Name="Abtei" costs="" dice="" text="" points="">
+					<Building Name="Kathedrale" costs="" dice="" text="" points="">
+					</Building>
+				</Building>	
+			</Building>
+		</Building>
+	</SubTree>
+	<SubTree Name="Infrastruktur">
+		<Building Name="Wache" costs="" dice="" text="" points="">
+			<Building Name="Wasserturm" costs="" dice="" text="" points="">
+				<Building Name="Feuerwehr" costs="" dice="" text="" points="">
+				</Building>
+			</Building>
+			<Building Name="Stadtwache" costs="" dice="" text="" points="">
+			</Building>
+		</Building>
+	</SubTree>	
+	
     <SubTree Name="Wirtschaft">
-        <Building Name="Markt", costs="3,5,1,2,5", dice="1W6,2W4", text="NewYear:Du darfst diese Runde einen Wurf wiederholen.,Uebersicht:und noch was anderes", points="7">
-            <Building Name="Fabrik", costs="3,5,1,2,5">
+        <Building Name="Markt" costs="3,5,1,2,5" dice="1W6,2W4" text="NewYear:Du darfst diese Runde einen Wurf wiederholen.,Uebersicht:und noch was anderes" points="7">
+            <Building Name="Fabrik" costs="3,5,1,2,5">
             </Building>
         </Building>
     </SubTree>
@@ -9,3 +40,6 @@
     <SubTree Name="Schutz">
     </SubTree>
 </Siedler>
+
+		<Building Name="" costs="" dice="" text="" points="">
+		</Building>

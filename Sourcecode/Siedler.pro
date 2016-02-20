@@ -24,7 +24,9 @@ SOURCES += main.cpp\
     Model/team.cpp \
     Model/xmlparser.cpp \
     Model/data.cpp \
-    View/buildingwidget.cpp
+    Model/pointboni.cpp \
+    View/buildingwidget.cpp \
+    Model/textboni.cpp
 
 HEADERS  += mainwindow.h \
     Model/treeelement.h \
@@ -38,12 +40,13 @@ HEADERS  += mainwindow.h \
     Model/team.h \
     Model/xmlparser.h \
     Model/data.h \
-    View/buildingwidget.h
+    Model/pointboni.h \
+    View/buildingwidget.h \
+    Model/textboni.h
+
 
 FORMS    += mainwindow.ui \
     View/mybonusevent.ui
 
 OTHER_FILES += \
     Tree.xml
-
-FORMS    += mainwindow.ui

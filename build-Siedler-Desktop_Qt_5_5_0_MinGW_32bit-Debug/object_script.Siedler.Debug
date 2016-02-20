@@ -9,7 +9,9 @@ INPUT(
 ./debug\team.o
 ./debug\xmlparser.o
 ./debug\data.o
+./debug\pointboni.o
 ./debug\buildingwidget.o
+./debug\textboni.o
 ./debug\moc_mainwindow.o
 ./debug\moc_buildingwidget.o
 );

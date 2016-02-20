@@ -7,9 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     initStylesheet();
-    Building *hansDieter = new Building(NULL,{1,2,2,2,3},"Schule");
-    BuildingWidget* widget = new BuildingWidget(hansDieter,ResourceEnum::WOOD,this->centralWidget());
-    widget->show();
+
 }
 
 MainWindow::~MainWindow()

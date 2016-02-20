@@ -5,13 +5,11 @@
 
 class DiceBoni : public Boni
 {
-public:
-    DiceBoni(QMap<int,int> Dices);
-    QMap<int,int> getDices();
-    QString getBoniAsText();
-
 private:
-    QMap<int,int> dices;
+    QMap<int, int> dices;
+public:
+    DiceBoni(QMap<int, int> dices) : Boni(), dices(dices){}
+    virtual QString getBoniAsText();
 };
 
 #endif // DICEBONI_H

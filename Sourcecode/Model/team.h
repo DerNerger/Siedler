@@ -13,9 +13,9 @@ class Team : public TreeElement
 {
 private:
     enum ResourceEnum resource;
-    QList<SubTree> subTrees;
+    QList<SubTree*> subTrees;
 public:
-    Team(QString name, ResourceEnum resource) : TreeElement(name), resource(resource){}
+    Team(QString name, ResourceEnum resource, QList<SubTree*> st) : TreeElement(name), resource(resource), subTrees(st){}
     virtual QList<TreeElement*> getChildren();
     bool isBought(){return true;}
 };

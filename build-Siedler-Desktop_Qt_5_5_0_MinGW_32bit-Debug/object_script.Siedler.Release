@@ -9,7 +9,9 @@ INPUT(
 ./release\team.o
 ./release\xmlparser.o
 ./release\data.o
+./release\pointboni.o
 ./release\buildingwidget.o
+./release\textboni.o
 ./release\moc_mainwindow.o
 ./release\moc_buildingwidget.o
 );

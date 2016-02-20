@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
     return a.exec();
 
     XMLParser parser("/home/felilein/Dokumente/Siedler/Sourcecode/Tree.xml");
-    parser.parseTree();
 
     return a.exec();
 }

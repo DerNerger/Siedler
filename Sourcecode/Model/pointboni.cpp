@@ -1,7 +1,7 @@
 #include "pointboni.h"
 
 QString PointBoni::getBoniAsText(){
-    return QString("Points:")+points;
+    return QString("Siegpunkte: %1").arg(points);
 }
 
 int PointBoni::getPoints(){

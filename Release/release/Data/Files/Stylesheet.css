@@ -1,0 +1,100 @@
+* {
+font:normal 17px;
+font-family:Comic Sans MS;
+}
+
+QDialog {
+border-style:outset;
+}
+
+QFrame#BuildingWidget,QDialog {
+border:2px solid #9F7810;
+border-radius:3px;
+}
+
+QFrame#BuildingWidget,QFrame#teamWidget,QPushButton,QPushButton#mainMenuButton,QGroupBox,QDialog,QFrame#yearView,* {
+background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#FFE5A1,stop:1#CB9E24);
+}
+
+QFrame#tableFrame {
+border:3px solid #9F5E10;
+border-radius:3px;
+border-style:outset;
+font:normal 20px;
+padding:-14px;
+}
+
+QFrame,QSlider,QCheckBox,QTableWidget::item {
+	background:rgba(0,0,0,0%);
+}
+
+QGroupBox,QFrame#yearView {
+border:2px outset #9F5E10;
+border-radius:3px;
+font:normal 18px;
+padding-top:20px;
+text-decoration:underline;
+}
+
+QGroupBox::title {
+subcontrol-position:top center;
+top:5px;
+}
+
+QHBoxLayout#tableLayout,QLabel#tableLabel,StatisticWidget#tableWidget {
+margin:0;
+padding:0;
+}
+
+QLabel#boldLabel {
+font:bold;
+}
+
+QLabel#description,QTableWidget,QTableWidget::item,QHeaderView::section{
+	font: 14px;
+}
+
+QLineEdit#subtreeTitle {
+border:2px solid #9F7810;
+border-radius:5px;
+font:normal 22px;
+text-decoration:underline;
+}
+
+QProgressBar {
+background:#CB9E24;
+}
+
+QPushButton {
+border:2px solid #9F5E10;
+border-radius:15px;
+border-style:outset;
+padding:2px 5px 5px;
+}
+
+QPushButton#mainMenuButton {
+border:3px solid #9F5E10;
+border-radius:35px;
+border-style:outset;
+font:normal 20px;
+padding:20px;
+}
+
+QPushButton#mainMenuButton:hover,QTableWidget::item:focus {
+background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#E2B94A,stop:1#CB9E24);
+}
+
+QPushButton:hover {
+background:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#E2B94A,stop:1#CB9E24);
+border-style:inset;
+}
+
+QTableWidget,QPlainTextEdit,QLineEdit,QSlider::handle,QSpinBox,QListWidget,QComboBox,QHeaderView::section,QTableCornerButton::section {
+background:#FFF4A1;
+border:2px outset #9F5E10;
+border-radius:3px;
+gridline-color:#9F5E10;
+padding:3px;
+selection-background-color:rgba(0,0,0,0%);
+selection-color:grey;
+}

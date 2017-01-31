@@ -8,11 +8,23 @@ int Boni::getPoints(){
     return 0;
 }
 
-QMap<int,int> Boni::getDices(){
-    QMap<int, int> map;
-    return map;
+QMap<int, int> Boni::getDices()
+{
+    return QMap<int,int>();
 }
 
-QString Boni::getTextFor(enum ShowPlaceEnum place){
+int Boni::getTradeRatio()
+{
+    return 5;
+}
+
+QString Boni::getTextFor(enum ShowPlaceEnum place)
+{
+    place = place;
     return "";
+}
+
+int Boni::getProtection()
+{
+    return 0;
 }

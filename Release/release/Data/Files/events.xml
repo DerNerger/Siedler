@@ -1,0 +1,86 @@
+﻿<?xml version="1.0"?>
+<Events>
+	<GoodEvents>
+		<Event><Title>Mäxchen</Title><Description>Aus jedem Team kommt ein Spieler zur Bank und es wird gegeneinander Mäxchen gespielt.</Description></Event>
+		<Event><Title>Schwimmen</Title><Description>Dieses Jahr findet die Schwimmen-Weltmeisterschaft statt. Jedes Team stellt einen Spieler.</Description></Event>
+		<Event><Title>17 und 4</Title>
+			<Description>Aus jedem Team kommt ein Spieler und es wird 17 und 4 gespielt. Der 1. Verlierer verliert 3 Rohstoffe, der 2. Verlierer 2 Rohstoffe.</Description></Event>
+		<Event><Title>Straßenreform</Title>
+			<Description>Es werden Hausnummern gewürfelt. 1.Platz: +2 Rohstoffe; 2.Platz: +1 Rohstoff; 3.Platz: +-0; 4.Platz: -1 Rohstoff; 5.Platz: -2 Rohstoffe</Description></Event>
+		<Event><Title>Gutes Jahr</Title><Description>Dieses Jahr ist ein gutes Jahr. Alle erhalten den doppelten Ertrag.</Description><DiceFactor>All:2</DiceFactor></Event>
+		<Event><Title>Gutes Jahr</Title><Description>Dieses Jahr ist ein gutes Jahr. Alle erhalten den doppelten Ertrag.</Description><DiceFactor>All:2</DiceFactor></Event>
+		<Event><Title>Handelsschiffe aus dem Orient</Title>
+			<Description>Große Händler aus dem Orient sind gekommen um zu handeln. Der heutige Ertrag wird in beliebigen Rohstoffen ausgezahlt.</Description></Event>
+		<Event><Title>Handelsschiffe aus dem Orient</Title>
+			<Description>Große Händler aus dem Orient sind gekommen um zu handeln. Der heutige Ertrag wird in beliebigen Rohstoffen ausgezahlt.</Description></Event>
+		<Event><Title>Großes Erbe</Title><Description>Jede Fraktion erhält zwei Rohstoffe nach Wahl</Description></Event>
+		<Event><Title>Großes Erbe</Title><Description>Jede Fraktion erhält zwei Rohstoffe nach Wahl</Description></Event>
+		<Event><Title>Goldader</Title><Description>Der Fund einer Goldader beschert euch Reichtum. 1W6 mehr würfeln.</Description><DiceBoni>1W6</DiceBoni></Event>
+		<Event><Title>Goldader</Title><Description>Der Fund einer Goldader beschert euch Reichtum. 1W6 mehr würfeln.</Description><DiceBoni>1W6</DiceBoni></Event>
+		<Event><Title>Erfolgreicher Raubzug</Title><Description>Ein paar euerer Leute segelten in ferne Lande und kommen mit Beute zurück.</Description><DiceBoni>1W4</DiceBoni></Event>
+		<Event><Title>Erfolgreicher Raubzug</Title><Description>Ein paar euerer Leute segelten in ferne Lande und kommen mit Beute zurück.</Description><DiceBoni>1W4</DiceBoni></Event>
+	</GoodEvents>
+	
+	<BadEvents>
+		<Event><Title>Heuschrecken!</Title>
+			<Description>Ein Schwarm Heuschrecken vernichtet die Ernte. Dieses Jahr nur der halbe Ertrag für die Bauern.</Description>
+			<DiceFactor>Wheat:0.5</DiceFactor></Event>
+		<Event><Title>Grubenunglück!</Title>
+			<Description>Ein Stollen ist nach einer Sprengung untertage eingestürzt. Dieses Jahr nur der halbe Ertrag für die Bergleute.</Description>
+			<DiceFactor>Iron:0.5</DiceFactor></Event>
+		<Event><Title>Klauenfäule!</Title>
+			<Description>Die Schäfer haben es dieses Jahr nicht einfach. Eine Klauenfäule-Epedemie befällt die Schafe. Dieses Jahr nur der halbe Ertrag für die Schäfer.</Description>
+			<DiceFactor>Sheep:0.5</DiceFactor></Event>
+		<Event><Title>Borkenkäfer!</Title>
+			<Description>Borkenkäfer befallen die Wälder. Dieses Jahr nur der halbe Ertrag für die Holzfäller.</Description>
+			<DiceFactor>Wood:0.5</DiceFactor></Event>
+		<Event><Title>Dauerregen!</Title>
+			<Description>Der anhaltende Dauerregen verschlechtert die Lehmqualität. Dieses Jahr nur der halbe Ertrag für die Ziegler.</Description>
+			<DiceFactor>Clay:0.5</DiceFactor></Event>
+		<Event><Title>Wegelagerer!</Title><counterID>1</counterID>
+			<Description>Wegelagerer überfallen die Transportrouten. Alle Fraktionen verlieren die Hälfte des heutigen Ertrags. (Aufgerundet)</Description></Event>
+		<Event><Title>Wikinger!</Title><counterID>1</counterID>
+			<Description>Wikinger überfallen euer Dorf. Sie rauben und plündern. Jede Fraktion ohne Schutzgebäude verliert alle Rohstoffe.</Description></Event>
+		<Event><Title>Wikinger!</Title><counterID>1</counterID>
+			<Description>Wikinger überfallen euer Dorf. Sie rauben und plündern. Jede Fraktion ohne Schutzgebäude verliert alle Rohstoffe.</Description></Event>
+		<Event><Title>Diebe!</Title><counterID>1</counterID>
+			<Description>Ein Pack gerissener Diebe beklaut euch. Jede Fraktion ohne Schutzgebäude verliert die Hälfte der Rohstoffe. (Aufgerundet)</Description></Event>
+		<Event><Title>Diebe!</Title><counterID>1</counterID>
+			<Description>Ein Pack gerissener Diebe beklaut euch. Jede Fraktion ohne Schutzgebäude verliert die Hälfte der Rohstoffe. (Aufgerundet)</Description></Event>
+		<Event><Title>Aufstände!</Title><counterID>1</counterID>
+			<Description>Ein paar Bauern verbünden sich und rebellieren. Jede Fraktion ohne Schutzgebäude verliert die Hälfte der Rohstoffe. (Aufgerundet)</Description></Event>
+		<Event><Title>Korruption!</Title><counterID>2</counterID><Description>Dieses Jahr kann nicht gebaut werden.</Description></Event>
+		<Event><Title>Korruption!</Title><counterID>2</counterID><Description>Dieses Jahr kann nicht gebaut werden.</Description></Event>
+		<Event><Title>Korruption!</Title><counterID>2</counterID><Description>Dieses Jahr kann nicht gebaut werden.</Description></Event>
+		<Event><Title>Pest!</Title><counterID>3</counterID>
+			<Description>Um Medizin zu kaufen benötigt ihr 3 Rohstoffe. Habt ihr diese nicht bleibt ihr krank im Bett und dürft nicht würfeln.</Description></Event>
+		<Event><Title>Pest!</Title><counterID>3</counterID>
+			<Description>Um Medizin zu kaufen benötigt ihr 3 Rohstoffe. Habt ihr diese nicht bleibt ihr krank im Bett und dürft nicht würfeln.</Description></Event>
+		<Event><Title>Krankheit!</Title><counterID>3</counterID>
+			<Description>Um Medizin zu kaufen benötigt ihr 3 Rohstoffe. Habt ihr diese nicht bleibt ihr krank im Bett und dürft nicht würfeln.</Description></Event>
+		<Event><Title>Sturm!</Title><counterID>4</counterID><Description>Ein Gebäude brennt ab.</Description></Event>
+		<Event><Title>Schwere Gewitter wüten!</Title><counterID>4</counterID><Description>Ein Gebäude brennt ab.</Description></Event>
+		<Event><Title>Schwere Gewitter wüten!</Title><counterID>4</counterID><Description>Ein Gebäude brennt ab.</Description></Event>
+	</BadEvents>
+</Events>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

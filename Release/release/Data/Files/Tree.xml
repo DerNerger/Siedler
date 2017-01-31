@@ -1,0 +1,58 @@
+﻿<Siedler>
+	<SubTree Name="Bildung">
+		<Building Name="Kindergarten" costs="1,1,1,1,1" dice="-1W4,1W6" points="4">
+			<Building Name="Schule" costs="2,2,1,1,1" dice="-1W6,1W8" points="6">
+				<Building Name="Bibliothek" costs="2,1,2,2,2" dice="-1W8,1W10" points="8">
+					<Building Name="Universität" costs="3,2,2,2,2" dice="-1W10,1W12" points="10">
+					</Building>
+				</Building>	
+			</Building>
+		</Building>
+	</SubTree>
+		<SubTree Name="Handel">
+		<Building Name="Markt" costs="3,0,1,0,1" trade="4" points="5">
+			<Building Name="Hafen" costs="5,1,0,1,0" trade="3" points="7">
+				<Building Name="Gildenhalle" costs="7,1,1,1,1" trade="2" points="9"></Building>	
+			</Building>
+			<Building Name="Spelunke" costs="0,2,2,2,0" points="7">
+				<Building Name="Gaststätte" costs="1,3,2,4,2" text="DiceRoll:Münzwurf für Doppelt oder Nichts beim Ertrag." points="10"></Building>	
+			</Building>
+		</Building>
+	</SubTree>
+		<SubTree Name="Glaube">
+		<Building Name="Kapelle" costs="0,1,1,1,1" text="Overview:Ein Segen! Dein Team erhältst einmalig zwei Rohstoffe nach Wahl." points="3">
+			<Building Name="Kirche" costs="1,1,1,2,2" text="DiceRoll:excl:Dein Team darfst einmal neu würfeln (der zweite Wurf zählt)." points="5">
+				<Building Name="Dom" costs="2,2,2,2,2"  dice="1W4" points="12">
+					<Building Name="Kathedrale" costs="2,3,2,3,2" points="15"></Building>
+				</Building>	
+				<Building Name="Kloster" costs="3,2,1,2,3" dice="1W4" points="8">
+					<Building Name="Abtei" costs="5,1,2,1,2" points="12"></Building>
+				</Building>
+			</Building>
+		</Building>
+	</SubTree>
+	<SubTree Name="Infrastruktur">
+		<Building Name="Brunnen" costs="1,0,1,0,1" points="4">
+			<Building Name="Wache" costs="0,2,0,1,2" prot="3" points="4">
+				<Building Name="Stadtmauer" costs="1,2,1,2,1" prot="3"points="4">
+					<Building Name="Burg" costs="3,1,2,2,2" prot="4" points="14"></Building>
+				</Building>
+			</Building>
+			<Building Name="Feuerwehr" costs="2,0,2,1,0" counter="4:Schützt vor Bränden." points="5">
+				<Building Name="Heilerstube" costs="3,1,1,0,2" counter="3:Schützt vor Krankheiten." points="8"></Building>
+			</Building>
+		</Building>
+	</SubTree>
+	<SubTree Name="Statussymbole">
+		<Building Name="Gericht" costs="0,3,2,0,0" counter="2:Die Richter klären den Skandal auf." points="7">
+			<Building Name="Rathaus" costs="5,1,0,1,0" points="10">
+				<Building Name="Theater" costs="0,3,3,3,0" points="10">
+					<Building Name="Krankenhaus" costs="2,3,2,2,2" counter="3:Schützt vor Krankheiten." points="12">
+					</Building>
+				</Building>	
+			</Building>
+		</Building>
+	</SubTree>
+
+	
+</Siedler>

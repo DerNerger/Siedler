@@ -1,0 +1,29 @@
+#ifndef HISTORYWIDGET_H
+#define HISTORYWIDGET_H
+
+#include <QWidget>
+#include <QGridLayout>
+#include <QTableWidget>
+#include <QHeaderView>
+#include <QResizeEvent>
+
+#include "Model/History.h"
+
+class HistoryWidget : public QWidget
+{
+    Q_OBJECT
+public:
+    explicit HistoryWidget(History* H,QWidget *parent = 0);
+signals:
+
+public slots:
+
+private:
+    QTableWidget* t;
+
+    void setupTable(History *h);
+    void resizeEvent(QResizeEvent *event);
+    void setupGraphs(History *h);
+};
+
+#endif // HISTORYWIDGET_H

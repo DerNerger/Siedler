@@ -1,0 +1,67 @@
+QPushButton
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #FDA44D, stop: 1 #F48518);
+	border: 2px solid #7A3C00;
+	border-radius: 3px;
+	border-style: outset;
+	padding-right: 5px;
+	padding-left:  5px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+}
+QPushButton:focus:pressed{ 
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #F48518, stop: 1 #FDA44D);
+	border-style: inset;
+}
+QPushButton:hover{ 
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #F48518, stop: 1 #FDA44D);
+}
+QPushButton:checked{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #F48518, stop: 1 #C86402);
+	border-style: inset;
+}
+QGroupBox
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #FDA44D, stop: 1 #F48518);
+	padding-top: 20px;
+	border-radius: 3px;
+	border: 2px outset #7A3C00;
+	font: normal 18px;
+	text-decoration: underline;
+}
+QGroupBox::title
+{
+	top: 5px;
+    subcontrol-position: top center;
+}
+QLineEdit
+{
+	background-color: #FDA44D;
+	border-radius: 3px;
+	border: 2px outset #7A3C00;
+}
+QSpinBox
+{
+	background-color: #FDA44D;
+	border-radius: 10px;
+	padding: 3px;
+	font: normal 20px;
+	border: 2px outset #7A3C00;
+}
+QPlainTextEdit
+{
+	background-color: #FDA44D;
+	border-radius: 3px;
+	border: 2px outset #7A3C00;
+}
+
+QProgressBar::Chunk
+{
+	background-color: #7A3C00;
+}
+QLabel#teamNameTitle
+{
+	font: normal 40px;
+	text-decoration: underline;
+	color: #F48518;
+}

@@ -1,0 +1,87 @@
+* 
+{
+	font-family: Georgia;
+ 	font: normal 11px ;
+}
+QPushButton
+{
+	border: 2px solid #9F5E10;
+	border-radius: 3px;
+	border-style: outset;
+	padding-right: 5px;
+	padding-left:  5px;
+	padding-bottom: 5px;
+	padding-top: 2px;
+}
+QPushButton:hover{ 
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #E2B94A, stop: 1 #CB9E24);
+	border-style: inset;
+}
+QDialog{
+	border-style: outset;
+}
+QHBoxLayout#tableLayout{
+	margin: 0px;
+	padding: 0px;
+}
+QLineEdit#subtreeTitle{
+	font: normal 22px;
+	text-decoration: underline;
+	border: 2px solid #9F7810;
+	border-radius: 5px;
+}
+
+QLabel#tableLabel,StatisticWidget#tableWidget{
+	margin: 0px;
+	padding: 0px;
+}
+QFrame#BuildingWidget,QPushButton,QPushButton#mainMenuButton,QGroupBox,QDialog,QChartView,*
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #FFE5A1, stop: 1 #CB9E24);
+}
+QFrame#BuildingWidget,QDialog{
+	border: 2px solid #9F7810;
+	border-radius: 3px;
+}
+
+
+QPushButton#mainMenuButton{
+	border: 3px solid #9F5E10;
+	border-radius: 3px;
+	border-style: outset;
+	padding: 20px;
+	font: normal 20px;
+}
+QPushButton#mainMenuButton:hover,QTableWidget::item:focus
+{
+	background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #E2B94A, stop: 1 #CB9E24);
+}
+QGroupBox
+{
+	padding-top: 20px;
+	border-radius: 3px;
+	border: 2px outset #9F5E10;
+	font: normal 18px;
+	text-decoration: underline;
+}
+QGroupBox::title
+{
+	top: 5px;
+    subcontrol-position: top center;
+}
+QTableWidget,QPlainTextEdit,QLineEdit,QSlider::handle,QSpinBox,QListWidget,QComboBox,QHeaderView::section,QTableCornerButton::section
+{
+	background-color: #FFF4A1;
+	border-radius: 3px;
+	border: 2px outset #9F5E10;
+	padding: 3px;
+	gridline-color: #9F5E10;
+}
+QFrame,QSlider,QCheckBox,QTableWidget::item
+{
+	background-color: rgba(0,0,0,0%);
+}
+QProgressBar
+{
+	background-color: #CB9E24;
+}

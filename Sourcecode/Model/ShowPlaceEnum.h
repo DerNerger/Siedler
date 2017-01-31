@@ -2,7 +2,9 @@
 #define SHOWPLACEENUM_H
 
 enum ShowPlaceEnum{
-    NewYear
+    NewYear,
+    DiceRoll,
+    Overview
 };
 
 #endif // SHOWPLACEENUM_H

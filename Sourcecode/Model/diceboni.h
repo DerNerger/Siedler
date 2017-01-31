@@ -10,6 +10,7 @@ private:
 public:
     DiceBoni(QMap<int, int> dices) : Boni(), dices(dices){}
     virtual QString getBoniAsText();
+    QMap<int,int> getDices();
 };
 
 #endif // DICEBONI_H

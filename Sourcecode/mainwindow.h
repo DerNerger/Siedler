@@ -3,8 +3,14 @@
 
 #include <QMainWindow>
 #include <QPushButton>
+#include <QPaintEvent>
+#include <QPainter>
+#include <QKeyEvent>
 
-#include "View/buildingwidget.h"
+
+
+#include "Model/data.h"
+
 
 namespace Ui {
 class MainWindow;
@@ -17,10 +23,12 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
-
+signals:
+    void keyPressed(int key);
+public slots:
+    void keyPressEvent(QKeyEvent *e);
 private:
     Ui::MainWindow *ui;
-    void initStylesheet();
 };
 
 #endif // MAINWINDOW_H
